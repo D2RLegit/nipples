@@ -1,0 +1,14 @@
+//#######Condensed Strict##############
+
+[Type] == Amulet && [Quality] == Rare # [ItemAddClassSkills] >= 2 && ([FCR]*18 + [Strength]*6.7 + [Dexterity]*7.5 + [MaxHP]*4.5 + [ColdResist]*2.1 + [FireResist]*2.1 + [LightResist]*2.1 + [PoisonResist]*1.65 + [MaxMana]*1.3 + [HPRegen]*10.8) >= 470
+[Type] == Ring && [Quality] == Rare # ([FCR]*18 + [Strength]*8 + [Dexterity]*10 + [MaxHP]*4.5 + [ColdResist]*2.8 + [FireResist]*2.8 + [LightResist]*2.8 + [PoisonResist]*2.2 + [MaxMana]*1.3 + [HPRegen]*12 + [ToHit]*1 + [MinDamage]*12) >= 470
+[Name] == SmallCharm && [Quality] == Magic # ((([MaxDamage]*12.5) + ([ToHit]*0.625)) + ([MaxHP]*2.5) + ([MaxMana]*2.9412) + ([ItemMagicBonus]*7.1429) + ([FRW]*16.6667) + ([FHR]*10) + ([ItemGoldBonus]*5) + (((([FireResist]+2.3334)*[FireResist])+(([ColdResist]+2.3334)*[ColdResist])+(([LightResist]+2.3334)*[LightResist])+(([PoisonResist]+2.3334)*[PoisonResist]))*0.341)) > 85 
+
+[type] == wand && ([name] >= bonewand && [name] != burntwand) && [quality] <= superior # [sockets] != 1 && ([skillbonespear]*15+[skillbonespirit]*15+[skillteeth]*10+[skillpoisonnova]*15+[skilldecrepify]*10+[skilllowerresist]*10+[skillrevive]*5+[skillbonearmor]*5+[skillironmaiden]*5) >= 70 
+[type] == wand && [quality] == rare # [fcr] >= 20 && [skillpoisonnova] >= 3 && ([skilldecrepify]+[skilllowerresist]) >= 1 && (([necromancerskills]*3)+([poisonandboneskilltab]*2)) >= 6 
+[type] == wand && [quality] == rare # [fcr] >= 20 && [skillbonespear] >= 3 && ([skilldecrepify]+[skilllowerresist]) >= 1 && (([necromancerskills]*3)+([poisonandboneskilltab]*2)) >= 6 
+
+([Name] == GreaterTalons || [Name] == GreaterClaws || [Name] == Suwayyah || [Name] == Wristsword || [Name] == RunicTalons || [Name] == FeralClaws || [Name] == ScissorsSuwayyah) && [Quality] <= Superior # ([sockets] == 0 || [sockets] == 3) && ([skilllightningsentry]*20+[skillmindblast]*15+[skillfade]*5+[skillvenom]*5+[skilldragonflight]*15+[skillweaponblock]*15+[skillshadowmaster]*5+[skillbladeshield]*15+[skillclawmastery]*10) >= 100 
+([Name] == GreaterTalons || [Name] == GreaterClaws || [Name] == Suwayyah || [Name] == Wristsword || [Name] == RunicTalons || [Name] == FeralClaws || [Name] == ScissorsSuwayyah) && [Quality] <= Superior # ([sockets] == 0 || [sockets] == 3) && ([skillvenom]*20+[skillfade]*15+[skilllightningsentry]*15+[skillmindblast]*15+[skilldragonflight]*15+[skillweaponblock]*15+[skillshadowmaster]*5+[skillbladeshield]*15+[skillclawmastery]*10) >= 100 
+([Name] == GreaterTalons || [Name] == GreaterClaws || [Name] == Suwayyah || [Name] == Wristsword || [Name] == RunicTalons || [Name] == FeralClaws || [Name] == ScissorsSuwayyah) && [Quality] <= Superior # ([sockets] == 0 || [sockets] == 3) && ([skillwakeoffire]*30+[skillmindblast]*15+[skillfade]*15+[skillvenom]*15+[skilldragonflight]*15+[skillweaponblock]*15+[skillshadowmaster]*5+[skillbladeshield]*15+[skillclawmastery]*15) >= 140 
+
